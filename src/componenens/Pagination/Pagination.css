@@ -1,0 +1,29 @@
+.div-pagination {
+    width: 100%;
+    margin: 20px;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active-pagination {
+    background-color:  rgb(21, 185, 214);
+    color: white;
+    border: 1px solid rgb(21, 185, 214);
+  }
+  .beginning-and-end-pagination {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  

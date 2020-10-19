@@ -1,0 +1,104 @@
+.searchBar-div {
+    width: 50%;
+    display: flex;
+}
+
+.searchBar-child-a {
+    width: 20%;
+    margin: auto;
+}
+
+.searchBar-child-b {
+    width: 45%;
+    margin: auto;
+}
+
+.searchBar-child-c {
+    width: 35%;
+    margin: auto;
+    border-color: black;
+    font-family:Arial;
+	font-size:17px;
+}
+
+.searchBar-child-c label {
+    margin-right: 5px;
+}
+.searchBar-child-c select {
+    width: 70%;
+    height: 35px;
+    padding: 0;
+    padding-left: 5px;
+}
+
+form.example  {
+    margin: auto;
+    max-width: 300px;
+}
+.searchBar-child-a button.myButton {
+	box-shadow: 0px 10px 14px -7pxrgb(21, 185, 214);
+	background:linear-gradient(to bottom, rgb(21, 185, 214) 5%, #408c99 100%);
+	background-color:rgb(21, 185, 214);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0pxrgb(21, 185, 214);
+}
+.searchBar-child-a button.myButton:hover {
+	background:linear-gradient(to bottom, rgb(21, 185, 214) 5%, rgb(21, 185, 214) 100%);
+	background-color:#408c99;
+}
+.searchBar-child-a button.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+form.example input:focus {
+    outline-width: 0;
+}
+
+form.example button:focus {
+    outline-width: 0;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 6px;
+    background: rgb(21, 185, 214);
+    color: white;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
